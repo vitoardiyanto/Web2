@@ -1,0 +1,377 @@
+INFO - 2024-12-07 06:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-07 08:31:31 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: detailmenu/2]
+in APPPATH\Views\pages\detailmenu.php on line 7.
+ 1 APPPATH\Views\pages\detailmenu.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages\\detailmenu', [], true)
+ 5 APPPATH\Controllers\Pages.php(113): view('pages\\detailmenu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 08:31:47 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: detailmenu/2]
+in APPPATH\Views\pages\detailmenu.php on line 7.
+ 1 APPPATH\Views\pages\detailmenu.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages\\detailmenu', [], true)
+ 5 APPPATH\Controllers\Pages.php(113): view('pages\\detailmenu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 08:38:01 --> ErrorException: Undefined variable $menu_berdasarkan_kategori
+[Method: GET, Route: detailmenu/2]
+in APPPATH\Controllers\Pages.php on line 102.
+ 1 APPPATH\Controllers\Pages.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu_berdasarkan_kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\Pages.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 08:53:13 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: menu]
+in APPPATH\Views\layout\footer.php on line 50.
+ 1 APPPATH\Views\layout\footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(57): view('layout\\footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 08:53:16 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: /]
+in APPPATH\Views\layout\footer.php on line 50.
+ 1 APPPATH\Views\layout\footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(20): view('layout\\footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 08:53:18 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: /]
+in APPPATH\Views\layout\footer.php on line 50.
+ 1 APPPATH\Views\layout\footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(20): view('layout\\footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 08:53:27 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: menu]
+in APPPATH\Views\layout\footer.php on line 50.
+ 1 APPPATH\Views\layout\footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(57): view('layout\\footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 08:54:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailmenu.php"
+[Method: GET, Route: detailmenu/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailmenu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailmenu', [], true)
+ 3 APPPATH\Controllers\Pages.php(97): view('detailmenu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('3')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 08:56:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailmenu.php"
+[Method: GET, Route: detailmenu/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailmenu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailmenu', [], true)
+ 3 APPPATH\Controllers\Pages.php(97): view('detailmenu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('3')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 08:56:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailmenu.php"
+[Method: GET, Route: detailmenu/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailmenu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailmenu', [], true)
+ 3 APPPATH\Controllers\Pages.php(97): view('detailmenu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 08:58:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailmenu.php"
+[Method: GET, Route: detailmenu/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailmenu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailmenu', [], true)
+ 3 APPPATH\Controllers\Pages.php(97): view('detailmenu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:00:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailmenu.php"
+[Method: GET, Route: detailmenu/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailmenu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailmenu', [], true)
+ 3 APPPATH\Controllers\Pages.php(97): view('detailmenu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:09:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailmenu.php"
+[Method: GET, Route: detailmenu/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailmenu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailmenu', [], true)
+ 3 APPPATH\Controllers\Pages.php(98): view('detailmenu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:10:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailmenu.php"
+[Method: GET, Route: detailmenu/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailmenu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailmenu', [], true)
+ 3 APPPATH\Controllers\Pages.php(98): view('detailmenu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:10:45 --> ArgumentCountError: Too few arguments to function App\Controllers\Pages::detailMenu(), 0 passed in C:\xampp\htdocs\warungemak\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: detailmenu]
+in APPPATH\Controllers\Pages.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:18:13 --> ArgumentCountError: Too few arguments to function App\Controllers\Pages::detailMenu(), 0 passed in C:\xampp\htdocs\warungemak\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: detailmenu]
+in APPPATH\Controllers\Pages.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:27:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailmenu.php"
+[Method: GET, Route: detailmenu/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailmenu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailmenu', [], true)
+ 3 APPPATH\Controllers\Pages.php(102): view('detailmenu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:28:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailmenu.php"
+[Method: GET, Route: detailmenu/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailmenu.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('detailmenu', [], true)
+ 3 APPPATH\Controllers\Pages.php(102): view('detailmenu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:29:06 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: detailmenu/1]
+in APPPATH\Views\pages\detailmenu.php on line 13.
+ 1 APPPATH\Views\pages\detailmenu.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/detailmenu', [], true)
+ 5 APPPATH\Controllers\Pages.php(102): view('pages/detailmenu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:30:18 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: detailmenu/1]
+in APPPATH\Views\layout\navbar.php on line 11.
+ 1 APPPATH\Views\layout\navbar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\navbar.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\navbar', [], true)
+ 5 APPPATH\Controllers\Pages.php(103): view('layout\\navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:31:48 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: detailmenu/1]
+in APPPATH\Views\layout\navbar.php on line 11.
+ 1 APPPATH\Views\layout\navbar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\navbar.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\navbar', [], true)
+ 5 APPPATH\Controllers\Pages.php(105): view('layout\\navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:38:35 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: detailmenu/1]
+in APPPATH\Views\layout\navbar.php on line 11.
+ 1 APPPATH\Views\layout\navbar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\navbar.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\navbar', [], true)
+ 5 APPPATH\Controllers\Pages.php(105): view('layout\\navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:39:11 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: detailmenu/1]
+in APPPATH\Views\layout\navbar.php on line 11.
+ 1 APPPATH\Views\layout\navbar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\navbar.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\navbar', [], true)
+ 5 APPPATH\Controllers\Pages.php(105): view('layout\\navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:41:55 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: detailmenu/2]
+in APPPATH\Views\layout\navbar.php on line 11.
+ 1 APPPATH\Views\layout\navbar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\navbar.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\navbar', [], true)
+ 5 APPPATH\Controllers\Pages.php(103): view('layout\\navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 09:42:56 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: detailmenu/3]
+in APPPATH\Views\pages\detailmenu.php on line 11.
+ 1 APPPATH\Views\pages\detailmenu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages\\detailmenu', [], true)
+ 5 APPPATH\Controllers\Pages.php(103): view('pages\\detailmenu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-07 09:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-07 09:52:31 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: menu]
+in APPPATH\Views\layout\footer.php on line 50.
+ 1 APPPATH\Views\layout\footer.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(57): view('layout\\footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-07 10:11:36 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: detailmenu/1]
+in APPPATH\Views\pages\detailmenu.php on line 47.
+ 1 APPPATH\Views\pages\detailmenu.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages\\detailmenu', [], true)
+ 5 APPPATH\Controllers\Pages.php(102): view('pages\\detailmenu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-07 12:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-07 18:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

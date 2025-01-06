@@ -1,0 +1,24 @@
+.alert {
+  color: rgb(255, 187, 0);
+}
+
+/* Tambahan untuk memberi efek hover dan bayangan pada kartu */
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Efek angkat kartu */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+.card .card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card .card-body {
+  padding: 20px;
+}
+

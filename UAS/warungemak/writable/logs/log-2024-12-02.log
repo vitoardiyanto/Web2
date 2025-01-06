@@ -1,0 +1,396 @@
+CRITICAL - 2024-12-02 07:11:42 --> ErrorException: Undefined array key "nama_pelanggan_testimoni"
+[Method: GET, Route: testimoni]
+in APPPATH\Views\pages\testimoni.php on line 14.
+ 1 APPPATH\Views\pages\testimoni.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pelanggan_testimoni"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\testimoni.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\testimoni.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages\\testimoni', [], true)
+ 5 APPPATH\Controllers\Pages.php(69): view('pages\\testimoni')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->testimoni()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 09:03:33 --> Error: Class "App\Controllers\GaleriModel" not found
+[Method: GET, Route: galeri]
+in APPPATH\Controllers\Pages.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->galeri()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 09:04:25 --> Error: Class "App\Controllers\GaleriModel" not found
+[Method: GET, Route: galeri]
+in APPPATH\Controllers\Pages.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->galeri()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 09:06:52 --> Error: Class "App\Controllers\GaleriModel" not found
+[Method: GET, Route: galeri]
+in APPPATH\Controllers\Pages.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->galeri()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 09:07:12 --> Error: Class "App\Controllers\GaleriModel" not found
+[Method: GET, Route: galeri]
+in APPPATH\Controllers\Pages.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->galeri()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 09:11:49 --> Error: Class "App\Controllers\GaleriModel" not found
+[Method: GET, Route: galeri]
+in APPPATH\Controllers\Pages.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->galeri()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 09:11:50 --> Error: Class "App\Controllers\GaleriModel" not found
+[Method: GET, Route: galeri]
+in APPPATH\Controllers\Pages.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->galeri()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 09:17:32 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "class="card-img-top""
+[Method: GET, Route: class=%22card-img-top%22]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('class="card-img-top"')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('class="card-img-top"')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 18:54:13 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 49.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(30): view('admin\\menu\\admin_menu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 18:54:22 --> ErrorException: Undefined variable $menus
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 49.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(30): view('admin\\menu\\admin_menu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 18:54:23 --> ErrorException: Undefined variable $menus
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 49.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(30): view('admin\\menu\\admin_menu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 18:54:49 --> ErrorException: Undefined variable $menus
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 49.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menus', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(30): view('admin\\menu\\admin_menu')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:24:51 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 49.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin\\menu\\admin_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:32:47 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 55.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin\\menu\\admin_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:37:18 --> ErrorException: Undefined array key "nama_kategori"
+[Method: GET, Route: adminmenu]
+in APPPATH\Controllers\Admin.php on line 44.
+ 1 APPPATH\Controllers\Admin.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\Admin.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:42:20 --> ErrorException: Undefined array key "nama_kategori"
+[Method: GET, Route: adminmenu]
+in APPPATH\Controllers\Admin.php on line 43.
+ 1 APPPATH\Controllers\Admin.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\Admin.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:42:23 --> ErrorException: Undefined array key "nama_kategori"
+[Method: GET, Route: adminmenu]
+in APPPATH\Controllers\Admin.php on line 43.
+ 1 APPPATH\Controllers\Admin.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\Admin.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:42:23 --> ErrorException: Undefined array key "nama_kategori"
+[Method: GET, Route: adminmenu]
+in APPPATH\Controllers\Admin.php on line 43.
+ 1 APPPATH\Controllers\Admin.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\Admin.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:45:21 --> ErrorException: Undefined variable $menu_berdasarkan_kategori
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 50.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu_berdasarkan_kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin\\menu\\admin_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:45:22 --> ErrorException: Undefined variable $menu_berdasarkan_kategori
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 50.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu_berdasarkan_kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin\\menu\\admin_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:46:49 --> ErrorException: Undefined variable $menu_berdasarkan_kategori
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 50.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu_berdasarkan_kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin\\menu\\admin_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:46:51 --> ErrorException: Undefined variable $menu_berdasarkan_kategori
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 50.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu_berdasarkan_kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin\\menu\\admin_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:46:52 --> ErrorException: Undefined variable $menu_berdasarkan_kategori
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 50.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu_berdasarkan_kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin\\menu\\admin_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:47:08 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 55.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin\\menu\\admin_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:47:09 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 55.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin\\menu\\admin_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:47:11 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 55.
+ 1 APPPATH\Views\admin\menu\admin_menu.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\admin_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin\\menu\\admin_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:56:38 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 55.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 4 APPPATH\Controllers\Admin.php(47): view('admin\\menu\\admin_menu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:56:40 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 55.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 4 APPPATH\Controllers\Admin.php(47): view('admin\\menu\\admin_menu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:57:07 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 55.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 4 APPPATH\Controllers\Admin.php(47): view('admin\\menu\\admin_menu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-02 19:57:08 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: adminmenu]
+in APPPATH\Views\admin\menu\admin_menu.php on line 55.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\menu\\admin_menu', [], true)
+ 4 APPPATH\Controllers\Admin.php(47): view('admin\\menu\\admin_menu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->menu()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')

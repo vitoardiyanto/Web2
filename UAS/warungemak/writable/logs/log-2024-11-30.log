@@ -1,0 +1,968 @@
+CRITICAL - 2024-11-30 09:43:42 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\app/Controllers\Pages::index"
+[Method: GET, Route: home]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\app/Controllers\\Pages::index')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('home')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('home')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 09:45:47 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\app/Controllers\Pages::index"
+[Method: GET, Route: home]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\app/Controllers\\Pages::index')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('home')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('home')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 09:45:59 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\app/Controllers\Pages::about"
+[Method: GET, Route: about]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\app/Controllers\\Pages::about')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes('about')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('about')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 18:38:05 --> ErrorException: Undefined property: CodeIgniter\View\View::$uri
+[Method: GET, Route: home]
+in APPPATH\Views\home.php on line 11.
+ 1 APPPATH\Views\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Pages.php(10): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 18:38:33 --> ErrorException: Undefined property: CodeIgniter\View\View::$uri
+[Method: GET, Route: home]
+in APPPATH\Views\home.php on line 11.
+ 1 APPPATH\Views\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Pages.php(10): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 18:38:36 --> ErrorException: Undefined property: CodeIgniter\View\View::$uri
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 11.
+ 1 APPPATH\Views\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Pages.php(10): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 19:19:17 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: home]
+in APPPATH\Views\home.php on line 12.
+ 1 APPPATH\Views\home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Pages.php(10): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 19:20:17 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: home]
+in APPPATH\Views\home.php on line 12.
+ 1 APPPATH\Views\home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Pages.php(11): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 19:20:19 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: /]
+in APPPATH\Views\home.php on line 12.
+ 1 APPPATH\Views\home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Pages.php(11): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 19:23:38 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: home]
+in APPPATH\Views\layout\header.php on line 33.
+ 1 APPPATH\Views\layout\header.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\header.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\header', [], true)
+ 5 APPPATH\Controllers\Pages.php(10): view('layout\\header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 19:23:44 --> ErrorException: Undefined variable $currentUri
+[Method: GET, Route: /]
+in APPPATH\Views\layout\header.php on line 33.
+ 1 APPPATH\Views\layout\header.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $currentUri', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\header.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\header', [], true)
+ 5 APPPATH\Controllers\Pages.php(10): view('layout\\header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 19:41:09 --> Error: Class "App\Controllers\MenuModel" not found
+[Method: GET, Route: menu]
+in APPPATH\Controllers\Pages.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 19:43:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-30 19:43:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `daftar_menu`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 19:45:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'warungemak', 3306, '', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-30 19:45:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `daftar_menu`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 19:45:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'warungemak', 3306, '', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-30 19:45:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `daftar_menu`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 19:46:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.7', '', Object(SensitiveParameterValue), 'warungemak', 3306, '', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-30 19:46:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `daftar_menu`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 19:46:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.7', '', Object(SensitiveParameterValue), 'warungemak', 3306, '', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-30 19:46:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `daftar_menu`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 19:49:15 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'warungemak', 3306, '', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-30 19:49:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `daftar_menu`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 19:49:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'warungemak', 3306, '', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-30 19:49:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `daftar_menu`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 19:52:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'warungemak', 3306, '', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-30 19:52:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `daftar_menu`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 19:52:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'warungemak', 3306, '', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#7 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-11-30 19:52:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `daftar_menu`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Pages.php(34): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 19:57:04 --> ErrorException: Undefined variable $daftar_menu
+[Method: GET, Route: menu]
+in APPPATH\Views\menu.php on line 11.
+ 1 APPPATH\Views\menu.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $daftar_menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\menu.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\Pages.php(35): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 20:15:55 --> mysqli_sql_exception: Unknown column 'kategori_menu.nama' in 'field list' in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `daftar_...', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_...')
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_...')
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#10 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-30 20:15:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kategori_menu.nama' in 'field list'
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 20:15:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kategori_menu.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 20:15:55 --> [Caused by] mysqli_sql_exception: Unknown column 'kategori_menu.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 20:16:22 --> mysqli_sql_exception: Unknown column 'kategori_menu.id_kategori' in 'on clause' in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `daftar_...', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_...')
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_...')
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#10 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-30 20:16:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kategori_menu.id_kategori' in 'on clause'
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 20:16:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kategori_menu.id_kategori' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 20:16:22 --> [Caused by] mysqli_sql_exception: Unknown column 'kategori_menu.id_kategori' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 20:16:38 --> mysqli_sql_exception: Unknown column 'kategori_menu.nama' in 'field list' in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `daftar_...', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_...')
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_...')
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#10 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-30 20:16:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kategori_menu.nama' in 'field list'
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 20:16:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kategori_menu.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 20:16:38 --> [Caused by] mysqli_sql_exception: Unknown column 'kategori_menu.nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+ERROR - 2024-11-30 20:17:27 --> mysqli_sql_exception: Unknown column 'kategori_menu.id_kategori' in 'on clause' in C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\warungemak\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `daftar_...', 0)
+#1 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_...')
+#2 C:\xampp\htdocs\warungemak\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_...')
+#3 C:\xampp\htdocs\warungemak\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_...', Array, false)
+#4 C:\xampp\htdocs\warungemak\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\warungemak\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\warungemak\app\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\warungemak\app\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+#8 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(933): App\Controllers\Pages->menu()
+#9 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#10 C:\xampp\htdocs\warungemak\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\warungemak\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\warungemak\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\warungemak\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\warungemak\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-30 20:17:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kategori_menu.id_kategori' in 'on clause'
+[Method: GET, Route: menu]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 20:17:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kategori_menu.id_kategori' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-11-30 20:17:27 --> [Caused by] mysqli_sql_exception: Unknown column 'kategori_menu.id_kategori' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `daftar_menu`.*, `kategori_menu`.`nama` AS `kategori_nama`
+FROM `daftar_menu`
+JOIN `kategori_menu` ON `kategori_menu`.`id_kategori` = `daftar_menu`.`id_kategori`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\MenuModel.php(18): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Pages.php(34): App\Models\MenuModel->getMenuDenganKategori()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')

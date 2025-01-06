@@ -1,0 +1,1527 @@
+INFO - 2024-12-08 06:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 06:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 06:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 06:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 07:32:08 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: updateKategori/1]
+in APPPATH\Views\admin\kategori\edit_kategori.php on line 41.
+ 1 APPPATH\Views\admin\kategori\edit_kategori.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/kategori/edit_kategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(486): view('admin/kategori/edit_kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 07:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 07:44:03 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: updateKategori/1]
+in APPPATH\Views\admin\kategori\edit_kategori.php on line 41.
+ 1 APPPATH\Views\admin\kategori\edit_kategori.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/kategori/edit_kategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(486): view('admin/kategori/edit_kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 07:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 07:44:21 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: updateKategori/1]
+in APPPATH\Views\admin\kategori\edit_kategori.php on line 41.
+ 1 APPPATH\Views\admin\kategori\edit_kategori.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/kategori/edit_kategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(486): view('admin/kategori/edit_kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 07:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 07:45:00 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: updateKategori/1]
+in APPPATH\Views\admin\kategori\edit_kategori.php on line 41.
+ 1 APPPATH\Views\admin\kategori\edit_kategori.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/kategori/edit_kategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(486): view('admin/kategori/edit_kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 07:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 07:48:39 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: updateKategori/1]
+in APPPATH\Views\admin\kategori\edit_kategori.php on line 41.
+ 1 APPPATH\Views\admin\kategori\edit_kategori.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/kategori/edit_kategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(486): view('admin/kategori/edit_kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 07:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 07:48:55 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: updateKategori/1]
+in APPPATH\Views\admin\kategori\edit_kategori.php on line 41.
+ 1 APPPATH\Views\admin\kategori\edit_kategori.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\kategori\\edit_kategori.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/kategori/edit_kategori', [], true)
+ 5 APPPATH\Controllers\Admin.php(486): view('admin/kategori/edit_kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 07:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 07:53:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "updateKategori/.php"
+[Method: GET, Route: updateKategori/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('updateKategori/.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateKategori/', [], true)
+ 3 APPPATH\Controllers\Admin.php(494): view('updateKategori/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 07:53:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "updateKategori.php"
+[Method: GET, Route: updateKategori/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('updateKategori.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateKategori', [], true)
+ 3 APPPATH\Controllers\Admin.php(494): view('updateKategori', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 07:54:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "updateKategori.php"
+[Method: GET, Route: updateKategori/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('updateKategori.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateKategori', [], true)
+ 3 APPPATH\Controllers\Admin.php(494): view('updateKategori', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 07:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 07:55:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "updateKategori.php"
+[Method: GET, Route: updateKategori/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('updateKategori.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateKategori', [], true)
+ 3 APPPATH\Controllers\Admin.php(494): view('updateKategori', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 07:56:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "updateKategori.php"
+[Method: GET, Route: updateKategori/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('updateKategori.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('updateKategori', [], true)
+ 3 APPPATH\Controllers\Admin.php(494): view('updateKategori', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateKategori('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 07:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 07:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 08:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 09:00:33 --> ErrorException: Undefined variable $dafatr_menu
+[Method: GET, Route: updateMenu/13]
+in APPPATH\Views\admin\menu\edit_menu.php on line 45.
+ 1 APPPATH\Views\admin\menu\edit_menu.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dafatr_menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/menu/edit_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(553): view('admin/menu/edit_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateMenu('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 09:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 09:00:49 --> ErrorException: Undefined variable $dafatr_menu
+[Method: GET, Route: updateMenu/13]
+in APPPATH\Views\admin\menu\edit_menu.php on line 45.
+ 1 APPPATH\Views\admin\menu\edit_menu.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dafatr_menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/menu/edit_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(553): view('admin/menu/edit_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateMenu('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 09:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 09:01:06 --> ErrorException: Undefined variable $dafatr_menu
+[Method: GET, Route: updateMenu/13]
+in APPPATH\Views\admin\menu\edit_menu.php on line 50.
+ 1 APPPATH\Views\admin\menu\edit_menu.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dafatr_menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php', 50)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/menu/edit_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(553): view('admin/menu/edit_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateMenu('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 09:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 09:01:48 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: updateMenu/13]
+in APPPATH\Views\admin\menu\edit_menu.php on line 61.
+ 1 APPPATH\Views\admin\menu\edit_menu.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/menu/edit_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(553): view('admin/menu/edit_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateMenu('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 09:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 09:02:29 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: updateMenu/13]
+in APPPATH\Views\admin\menu\edit_menu.php on line 62.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/menu/edit_menu', [], true)
+ 4 APPPATH\Controllers\Admin.php(553): view('admin/menu/edit_menu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateMenu('13')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 09:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 09:11:18 --> ErrorException: Undefined variable $daftar_menu
+[Method: GET, Route: updateMenu/13]
+in APPPATH\Views\admin\menu\edit_menu.php on line 41.
+ 1 APPPATH\Views\admin\menu\edit_menu.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $daftar_menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/menu/edit_menu', [...], true)
+ 5 APPPATH\Controllers\Admin.php(555): view('admin/menu/edit_menu', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateMenu('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 09:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 09:20:46 --> ErrorException: Undefined variable $daftar_menu
+[Method: GET, Route: updateMenu/13]
+in APPPATH\Views\admin\menu\edit_menu.php on line 41.
+ 1 APPPATH\Views\admin\menu\edit_menu.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $daftar_menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/menu/edit_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(555): view('admin/menu/edit_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateMenu('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 09:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 09:22:13 --> ErrorException: Undefined variable $daftar_menu
+[Method: GET, Route: updateMenu/13]
+in APPPATH\Views\admin\menu\edit_menu.php on line 45.
+ 1 APPPATH\Views\admin\menu\edit_menu.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $daftar_menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php', 45)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\admin\\menu\\edit_menu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/menu/edit_menu', [], true)
+ 5 APPPATH\Controllers\Admin.php(555): view('admin/menu/edit_menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->updateMenu('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 09:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 09:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 10:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 10:55:15 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: menu]
+in APPPATH\Views\layout\footer.php on line 75.
+ 1 APPPATH\Views\layout\footer.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(57): view('layout\\footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 10:55:33 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: menu]
+in APPPATH\Views\layout\footer.php on line 75.
+ 1 APPPATH\Views\layout\footer.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php', 75)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(57): view('layout\\footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 11:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 11:32:31 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: keranjang/add]
+in APPPATH\Models\Pages\KeranjangModel.php on line 34.
+ 1 APPPATH\Controllers\Keranjang.php(25): App\Models\Pages\KeranjangModel->addItemToCart(1, Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 11:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 11:32:36 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: keranjang/add]
+in APPPATH\Models\Pages\KeranjangModel.php on line 34.
+ 1 APPPATH\Controllers\Keranjang.php(25): App\Models\Pages\KeranjangModel->addItemToCart(2, Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 11:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 11:33:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: keranjang/add]
+in APPPATH\Models\Pages\KeranjangModel.php on line 34.
+ 1 APPPATH\Models\Pages\KeranjangModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\warungemak\\app\\Models\\Pages\\KeranjangModel.php', 34)
+ 2 APPPATH\Controllers\Keranjang.php(25): App\Models\Pages\KeranjangModel->addItemToCart(3, null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->add()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 11:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 11:34:37 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: keranjang/add]
+in APPPATH\Models\Pages\KeranjangModel.php on line 34.
+ 1 APPPATH\Controllers\Keranjang.php(25): App\Models\Pages\KeranjangModel->addItemToCart(4, Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->add()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 13:29:29 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailmenu/16]
+in APPPATH\Views\pages\detailmenu.php on line 81.
+ 1 APPPATH\Views\pages\detailmenu.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages\\detailmenu', [], true)
+ 5 APPPATH\Controllers\Pages.php(103): view('pages\\detailmenu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('16')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 13:30:20 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailmenu/2]
+in APPPATH\Views\pages\detailmenu.php on line 81.
+ 1 APPPATH\Views\pages\detailmenu.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php', 81)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\detailmenu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages\\detailmenu', [], true)
+ 5 APPPATH\Controllers\Pages.php(103): view('pages\\detailmenu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->detailMenu('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 13:35:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cart.php"
+[Method: GET, Route: cart]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart', [], true)
+ 3 APPPATH\Controllers\Keranjang.php(34): view('cart', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 13:35:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cart.php"
+[Method: GET, Route: cart]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart', [], true)
+ 3 APPPATH\Controllers\Keranjang.php(34): view('cart', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:38:49 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 26.
+ 1 APPPATH\Views\pages\cart.php(26): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:39:11 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 26.
+ 1 APPPATH\Views\pages\cart.php(26): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:43:14 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 26.
+ 1 APPPATH\Views\pages\cart.php(26): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:43:16 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart_pdf.php on line 21.
+ 1 APPPATH\Views\pages\cart_pdf.php(21): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_pdf.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_pdf', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(53): view('pages/cart_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->printPdf()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:47:24 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 26.
+ 1 APPPATH\Views\pages\cart.php(26): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:48:16 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 26.
+ 1 APPPATH\Views\pages\cart.php(26): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:50:26 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 26.
+ 1 APPPATH\Views\pages\cart.php(26): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:51:42 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:51:54 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:52:31 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:52:42 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:52:45 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart_pdf.php on line 21.
+ 1 APPPATH\Views\pages\cart_pdf.php(21): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_pdf.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_pdf', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(53): view('pages/cart_pdf', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->printPdf()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:53:11 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:58:06 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:58:26 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:58:39 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 13:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 13:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 13:58:51 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:03:23 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:03:34 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:10:24 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:10:24 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:13:15 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:13:17 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:13:19 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:13:31 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:13:31 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:13:32 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:13:32 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:13:50 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:13:50 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 14:14:12 --> ErrorException: Undefined variable $menu
+[Method: GET, Route: /]
+in APPPATH\Views\layout\footer.php on line 70.
+ 1 APPPATH\Views\layout\footer.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php', 70)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\layout\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('layout\\footer', [], true)
+ 5 APPPATH\Controllers\Pages.php(20): view('layout\\footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->home()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:15:49 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:15:49 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart.php on line 27.
+ 1 APPPATH\Views\pages\cart.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart', [], true)
+ 5 APPPATH\Controllers\Keranjang.php(34): view('pages/cart', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keranjang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 14:33:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cart_view.php"
+[Method: GET, Route: cart/view]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart_view', [], true)
+ 3 APPPATH\Controllers\CartController.php(57): view('cart_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 14:34:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cart_view.php"
+[Method: GET, Route: cart/view]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart_view.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart_view', [], true)
+ 3 APPPATH\Controllers\CartController.php(57): view('cart_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 14:35:27 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: cart/view]
+in APPPATH\Views\pages\cart_view.php on line 24.
+ 1 APPPATH\Views\pages\cart_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 14:36:33 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: cart/view]
+in APPPATH\Views\pages\cart_view.php on line 26.
+ 1 APPPATH\Views\pages\cart_view.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:37:10 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart_view.php on line 27.
+ 1 APPPATH\Views\pages\cart_view.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 14:37:10 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: cart/view]
+in APPPATH\Views\pages\cart_view.php on line 29.
+ 1 APPPATH\Views\pages\cart_view.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php', 29)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:37:20 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart_view.php on line 27.
+ 1 APPPATH\Views\pages\cart_view.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 14:37:20 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: cart/view]
+in APPPATH\Views\pages\cart_view.php on line 34.
+ 1 APPPATH\Views\pages\cart_view.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:37:33 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart_view.php on line 27.
+ 1 APPPATH\Views\pages\cart_view.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 14:37:33 --> ErrorException: Undefined array key "harga_menu"
+[Method: GET, Route: cart/view]
+in APPPATH\Views\pages\cart_view.php on line 24.
+ 1 APPPATH\Views\pages\cart_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 14:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:38:52 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart_view.php on line 27.
+ 1 APPPATH\Views\pages\cart_view.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 14:38:52 --> ErrorException: Undefined array key "harga_menu"
+[Method: GET, Route: cart/view]
+in APPPATH\Views\pages\cart_view.php on line 24.
+ 1 APPPATH\Views\pages\cart_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:39:42 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart_view.php on line 27.
+ 1 APPPATH\Views\pages\cart_view.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 14:39:42 --> ErrorException: Undefined array key "harga_menu"
+[Method: GET, Route: cart/view]
+in APPPATH\Views\pages\cart_view.php on line 24.
+ 1 APPPATH\Views\pages\cart_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 14:39:43 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pages\cart_view.php on line 27.
+ 1 APPPATH\Views\pages\cart_view.php(27): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+CRITICAL - 2024-12-08 14:39:43 --> ErrorException: Undefined array key "harga_menu"
+[Method: GET, Route: cart/view]
+in APPPATH\Views\pages\cart_view.php on line 24.
+ 1 APPPATH\Views\pages\cart_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 14:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 14:41:06 --> ErrorException: Undefined array key "harga_menu"
+[Method: GET, Route: cart/view]
+in APPPATH\Views\pages\cart_view.php on line 24.
+ 1 APPPATH\Views\pages\cart_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\warungemak\\app\\Views\\pages\\cart_view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/cart_view', [], true)
+ 5 APPPATH\Controllers\CartController.php(57): view('pages/cart_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->viewCart()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 15:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 15:07:40 --> ErrorException: Undefined array key "id_menu"
+[Method: GET, Route: cart/addToCart/16]
+in APPPATH\Controllers\CartController.php on line 45.
+ 1 APPPATH\Controllers\CartController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\CartController.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->addToCart('16')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 15:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 15:13:14 --> ErrorException: Undefined array key "id_menu"
+[Method: POST, Route: cart/addToCart/6]
+in APPPATH\Controllers\CartController.php on line 22.
+ 1 APPPATH\Controllers\CartController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\CartController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->addToCart('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 15:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 15:13:55 --> ErrorException: Undefined array key "id_menu"
+[Method: POST, Route: cart/addToCart/6]
+in APPPATH\Controllers\CartController.php on line 22.
+ 1 APPPATH\Controllers\CartController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\CartController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->addToCart('6')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 15:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 15:14:08 --> ErrorException: Undefined array key "id_menu"
+[Method: POST, Route: cart/addToCart/16]
+in APPPATH\Controllers\CartController.php on line 22.
+ 1 APPPATH\Controllers\CartController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\CartController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->addToCart('16')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 15:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 15:15:17 --> ErrorException: Undefined array key "id_menu"
+[Method: POST, Route: cart/addToCart/3]
+in APPPATH\Controllers\CartController.php on line 22.
+ 1 APPPATH\Controllers\CartController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\CartController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->addToCart('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 15:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 15:17:23 --> TypeError: Unsupported operand types: string * string
+[Method: POST, Route: cart/addToCart/3]
+in APPPATH\Controllers\CartController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->addToCart('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 15:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 15:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 15:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-08 15:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 15:49:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\CartController::$menuModel is deprecated in APPPATH\Controllers\CartController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 15:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-08 15:51:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\CartController::$menuModel is deprecated in APPPATH\Controllers\CartController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 15:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 15:51:06 --> ErrorException: Undefined array key "harga_menu"
+[Method: GET, Route: cart/printPdf]
+in APPPATH\Controllers\CartController.php on line 65.
+ 1 APPPATH\Controllers\CartController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\CartController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->printPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+WARNING - 2024-12-08 15:54:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\CartController::$menuModel is deprecated in APPPATH\Controllers\CartController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+INFO - 2024-12-08 15:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-08 15:54:37 --> ErrorException: Undefined array key "harga_menu"
+[Method: GET, Route: cart/printPdf]
+in APPPATH\Controllers\CartController.php on line 65.
+ 1 APPPATH\Controllers\CartController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_menu"', 'C:\\xampp\\htdocs\\warungemak\\app\\Controllers\\CartController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->printPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
+WARNING - 2024-12-08 15:54:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\CartController::$menuModel is deprecated in APPPATH\Controllers\CartController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\CartController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\warungemak\\public\\index.php')
